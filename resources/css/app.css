@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        @apply bg-gray-50 text-slate-700;
+    }
+    table {
+        @apply border-collapse border-spacing-0 border rounded-md drop-shadow-md;
+    }
+    th {
+        @apply text-left;
+    }
+    thead tr {
+        @apply bg-gray-100;
+    }
+    td {
+        @apply bg-white;
+    }
+    th, td {
+        @apply border-b border-b-slate-200 p-1 sm:p-4 lg:py-8 lg:px-5;
+    }
+}
